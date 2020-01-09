@@ -12,18 +12,29 @@ body{
 }
 
 .flex-container{
-	display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 
+    height: 400px;
     max-width: 1170px;
     margin: 50px auto;
     font-size: 20px;
     color: aliceblue;
     text-align: center;
     background-color: #fff;
+    padding: 5px;
 }
 
 .flex-element{
+    flex: 1 50px;
+
 	padding: 10px;
-	margin: 10px;
     background-color: #e85b5b;
+    margin: 5px;
 }
+
+.flex-element:first-child{
+    align-self: flex-start;
+}
+

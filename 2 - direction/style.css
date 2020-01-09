@@ -12,7 +12,12 @@ body{
 }
 
 .flex-container{
-	display: flex;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    
 
     max-width: 1170px;
     margin: 50px auto;
