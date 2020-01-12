@@ -26,6 +26,21 @@ body{
 
 .flex-element{
     flex: 1 50px;
+    /*
+        initial (0 1 auto);
+        auto (1 1 auto)
+        none (0 0 auto)
+        2 (2 1 0)
+        30px (1 1 30px)
+        2 30px (2 1 30px)
+        2 3 40px (2 3 40px)
+    */
+
+    /*
+        flex-basis: 20px;
+        flex-grow: 1;
+        flex-shrink: 1;
+    */
 
 	padding: 10px;
     background-color: #e85b5b;
